@@ -1,0 +1,13 @@
+{
+  "versionName": "1.2.0",
+  "revision": 3,
+  "apkPath": "artifacts/app-release.apk",
+  "apkUrl": "https://github.com/prakashec13/PharmaConnect-Releases/releases/download/v1.2.0-3/app-release.apk",
+  "changelog": [
+    "Introduce an Aval-inspired responsive desktop and Android navigation shell.",
+    "Add a calmer pharmacy design system with editorial headings and compact cards.",
+    "Improve login, dashboard hierarchy, inventory search, and stock statuses."
+  ],
+  "forceUpdate": false,
+  "minSupportedRevision": 2
+}
