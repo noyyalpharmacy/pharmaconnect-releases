@@ -1,17 +1,12 @@
 {
-  "versionName": "1.4.0",
-  "revision": 6,
+  "versionName": "1.4.1",
+  "revision": 7,
   "apkPath": "artifacts/app-release.apk",
-  "apkUrl": "https://raw.githubusercontent.com/noyyalpharmacy/pharmaconnect-releases/main/v1.4.0-6/app-release.apk",
+  "apkUrl": "https://raw.githubusercontent.com/noyyalpharmacy/pharmaconnect-releases/main/v1.4.1-7/app-release.apk",
   "changelog": [
-    "Purchase Orders: approve, order, and receive workflow with one-click conversion to a purchase, plus bulk reorder from low-stock items.",
-    "New reports: GSTR-1/GSTR-3B, Trial Balance, AR/AP Aging, and accurate Inventory Valuation & COGS, all with CSV export.",
-    "Bank Reconciliation for UPI/card settlements, and an expected-cash preview when closing the cash register.",
-    "Accounting: multi-invoice payment collection, credit account history, and Purchase Return history with a safe reversal option.",
-    "Bulk Excel (.xlsx) product import alongside CSV, and a barcode Scanner mode for rapid stock adjustments (Android).",
-    "Invoices now print with a QR code, CGST/SGST/IGST breakdown, HSN and batch per line, and the prescribing doctor.",
-    "Ctrl+K command palette, richer Audit Log and Alert filters, and real customer/patient profiles with a purchase and prescription timeline.",
-    "Settings: company logo upload, GST state picker, alert thresholds, and default payment mode are now editable."
+    "Dashboard: added an \"All Time\" option to the date range filter.",
+    "Fixed a layout bug where section headers with several action buttons (e.g. Masters > Customers) could squeeze or overflow the title.",
+    "Fixed Active Sessions reordering itself continuously while open, caused by an unthrottled background heartbeat."
   ],
   "forceUpdate": false,
   "minSupportedRevision": 2
