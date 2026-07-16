@@ -1,12 +1,17 @@
 {
-  "versionName": "1.2.0",
-  "revision": 3,
+  "versionName": "1.4.0",
+  "revision": 6,
   "apkPath": "artifacts/app-release.apk",
-  "apkUrl": "https://github.com/prakashec13/PharmaConnect-Releases/releases/download/v1.2.0-3/app-release.apk",
+  "apkUrl": "https://raw.githubusercontent.com/noyyalpharmacy/pharmaconnect-releases/main/v1.4.0-6/app-release.apk",
   "changelog": [
-    "Introduce an Aval-inspired responsive desktop and Android navigation shell.",
-    "Add a calmer pharmacy design system with editorial headings and compact cards.",
-    "Improve login, dashboard hierarchy, inventory search, and stock statuses."
+    "Purchase Orders: approve, order, and receive workflow with one-click conversion to a purchase, plus bulk reorder from low-stock items.",
+    "New reports: GSTR-1/GSTR-3B, Trial Balance, AR/AP Aging, and accurate Inventory Valuation & COGS, all with CSV export.",
+    "Bank Reconciliation for UPI/card settlements, and an expected-cash preview when closing the cash register.",
+    "Accounting: multi-invoice payment collection, credit account history, and Purchase Return history with a safe reversal option.",
+    "Bulk Excel (.xlsx) product import alongside CSV, and a barcode Scanner mode for rapid stock adjustments (Android).",
+    "Invoices now print with a QR code, CGST/SGST/IGST breakdown, HSN and batch per line, and the prescribing doctor.",
+    "Ctrl+K command palette, richer Audit Log and Alert filters, and real customer/patient profiles with a purchase and prescription timeline.",
+    "Settings: company logo upload, GST state picker, alert thresholds, and default payment mode are now editable."
   ],
   "forceUpdate": false,
   "minSupportedRevision": 2
