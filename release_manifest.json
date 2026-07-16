@@ -1,12 +1,15 @@
 {
-  "versionName": "1.4.1",
-  "revision": 7,
+  "versionName": "1.5.0",
+  "revision": 8,
   "apkPath": "artifacts/app-release.apk",
-  "apkUrl": "https://raw.githubusercontent.com/noyyalpharmacy/pharmaconnect-releases/main/v1.4.1-7/app-release.apk",
+  "apkUrl": "https://raw.githubusercontent.com/noyyalpharmacy/pharmaconnect-releases/main/v1.5.0-8/app-release.apk",
   "changelog": [
-    "Dashboard: added an \"All Time\" option to the date range filter.",
-    "Fixed a layout bug where section headers with several action buttons (e.g. Masters > Customers) could squeeze or overflow the title.",
-    "Fixed Active Sessions reordering itself continuously while open, caused by an unthrottled background heartbeat."
+    "Daybook: added line-level drill-down and CSV export.",
+    "Reports: added Doctor-wise Sales and Expiry reports.",
+    "Settings: added heading/body font selection under Appearance.",
+    "Purchase Orders: can now edit lines (product/qty/expected rate) after creation, while still draft/approved/ordered.",
+    "Patients: added email and structured city/state/pincode fields.",
+    "Bulk product import: auto-detects pack size/unit from free-text pack descriptors and auto-computes loose-sale pricing when not specified."
   ],
   "forceUpdate": false,
   "minSupportedRevision": 2
